@@ -3,5 +3,7 @@
 \contentsline {chapter}{\numberline {1}Wst\IeC {\k e}p}{3}
 \contentsline {chapter}{\numberline {2}Identyfikacja}{3}
 \contentsline {section}{\numberline {2.1}Model matematyczny}{3}
-\contentsline {section}{\numberline {2.2}Martwa strefa}{4}
-\contentsline {section}{\numberline {2.3}Modele}{5}
+\contentsline {section}{\numberline {2.2}Offset}{4}
+\contentsline {section}{\numberline {2.3}Martwa strefa}{4}
+\contentsline {section}{\numberline {2.4}Model}{5}
+\contentsline {chapter}{\numberline {3}Regulator PID}{6}

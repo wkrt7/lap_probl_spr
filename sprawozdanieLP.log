@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.7)  27 MAY 2017 20:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.7)  28 MAY 2017 00:02
 entering extended mode
 **./sprawozdanieLP.tex
 (sprawozdanieLP.tex
@@ -1681,16 +1681,69 @@ File: images/identyfikacja/martwa_strefa.png Graphic file (type png)
 
 <use images/identyfikacja/martwa_strefa.png>
 Package pdftex.def Info: images/identyfikacja/martwa_strefa.png used on input l
-ine 71.
+ine 72.
 (pdftex.def)             Requested size: 318.66948pt x 238.942pt.
+ [4]
+<images/identyfikacja/1_trans_fala_prost.png, id=27, 578.6418pt x 433.8609pt>
+File: images/identyfikacja/1_trans_fala_prost.png Graphic file (type png)
+
+<use images/identyfikacja/1_trans_fala_prost.png>
+Package pdftex.def Info: images/identyfikacja/1_trans_fala_prost.png used on in
+put line 84.
+(pdftex.def)             Requested size: 286.80058pt x 215.04317pt.
+
+<images/identyfikacja/1_trans_skok07.png, id=28, 578.6418pt x 433.8609pt>
+File: images/identyfikacja/1_trans_skok07.png Graphic file (type png)
+
+<use images/identyfikacja/1_trans_skok07.png>
+Package pdftex.def Info: images/identyfikacja/1_trans_skok07.png used on input 
+line 92.
+(pdftex.def)             Requested size: 286.80058pt x 215.04317pt.
+
+Overfull \hbox (186.6549pt too wide) in paragraph at lines 83--98
+ [][]  [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/identyfikacja/2_trans_fala_prost.png, id=29, 578.6418pt x 433.8609pt>
+File: images/identyfikacja/2_trans_fala_prost.png Graphic file (type png)
+
+<use images/identyfikacja/2_trans_fala_prost.png>
+Package pdftex.def Info: images/identyfikacja/2_trans_fala_prost.png used on in
+put line 109.
+(pdftex.def)             Requested size: 286.80058pt x 215.04317pt.
+
+<images/identyfikacja/2_trans_skok07.png, id=30, 578.6418pt x 433.8609pt>
+File: images/identyfikacja/2_trans_skok07.png Graphic file (type png)
+
+<use images/identyfikacja/2_trans_skok07.png>
+Package pdftex.def Info: images/identyfikacja/2_trans_skok07.png used on input 
+line 116.
+(pdftex.def)             Requested size: 286.80058pt x 215.04317pt.
+
+Overfull \hbox (186.6549pt too wide) in paragraph at lines 108--122
+ [][]  [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (regulatorPID.tex
+Rozdzia\l  3.
+)
+
+Package caption Warning: Unused \captionsetup[figure] on input line 106.
+See the caption package documentation for explanation.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 79.
-)
-[5 <./images/identyfikacja/martwa_strefa.png (PNG copy)>] (sprawozdanieLP.aux)
+ [5 <./images/identyfikacja/martwa_strefa.png (PNG copy)>] [6 <./images/identyf
+ikacja/1_trans_fala_prost.png (PNG copy)> <./images/identyfikacja/1_trans_skok0
+7.png (PNG copy)>] [7 <./images/identyfikacja/2_trans_fala_prost.png (PNG copy)
+> <./images/identyfikacja/2_trans_skok07.png (PNG copy)>] (sprawozdanieLP.aux)
 Package logreq Info: Writing requests to 'sprawozdanieLP.run.xml'.
 \openout1 = `sprawozdanieLP.run.xml'.
 
@@ -1700,13 +1753,13 @@ Package logreq Info: Writing requests to 'sprawozdanieLP.run.xml'.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 25855 strings out of 493334
- 477764 string characters out of 3139252
- 720497 words of memory out of 3000000
- 29024 multiletter control sequences out of 15000+200000
- 56892 words of font info for 70 fonts, out of 3000000 for 9000
+ 25883 strings out of 493334
+ 478735 string characters out of 3139252
+ 721497 words of memory out of 3000000
+ 29046 multiletter control sequences out of 15000+200000
+ 54089 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,12n,45p,10394b,4897s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,12n,45p,10394b,4902s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<D
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files/
@@ -1717,9 +1770,9 @@ ype1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw
 8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><D:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files/MiKTe
 X 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on sprawozdanieLP.pdf (5 pages, 329186 bytes).
+Output written on sprawozdanieLP.pdf (7 pages, 775661 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

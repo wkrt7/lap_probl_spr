@@ -63,7 +63,8 @@ Jest to transmitancja obiektu pierwszego rzędu opisującą zależność obrotó
 G(s) = \frac{\alpha(s)}{U(s)} = \frac{ K}{s \cdot (T \cdot s + 1)}
 \end{equation}
 opisuje zależność kąta wału silnika od napięcia wejściowego. Jest to transmitancja obiektu inercyjnego z członem całkującym
-
+\section{Offset}
+W systemie występuje offset rzędu $1.58 [\frac{rad}{s}]$
 \section{Martwa strefa}
 W trakcie badań nad systemem zauważono, że występuje w nim zjawisko martwej strefy. Zostało ono przedstawione na rysunku \ref{fig:martwa_sterfa}
 \begin{figure}[H]
@@ -74,7 +75,51 @@ W trakcie badań nad systemem zauważono, że występuje w nim zjawisko martwej 
 	\label{fig:martwa_sterfa}
 \end{figure}
 
-Na podstawie powyższego rysunku można stwierdzić iż silnik posiada niesymetryczną martwą strefę. Dla napięcia rosnącego źle źle źle źle!!!! w modelu nie uwzględniamy napięcia rosnącego lub malejącego tylko ujemne i dodatnie!!!! kurwa
-\section{Modele}
-\subsection*{Model z pojedynczej transmitancji}
-\subsection*{Model z podwójnej transmitancji}
+Na podstawie powyższego rysunku można stwierdzić iż silnik posiada niesymetryczną martwą strefę określoną przedziałem [...]. W związku z tym w dalszych pracach podjęto działanie mające na celu redukcję owego efektu. Zauważono również iż dla napięć ujemnych wał silnika kręci się znacząco szybciej niż dla napieć dodatnich.
+\section{Model}
+Do badań identyfikacyjnych przyjęto model transmitancji \ref{eq:transmitancja_pred}, badno więc związek prędkości kątowej wału silnika do napięcia wejściowego. Wyniki zostały przedstawione na rysunku
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.7\textwidth}
+\includegraphics[width=0.9\textwidth]{identyfikacja/1_trans_fala_prost}
+\centering
+\caption{'Fala prostokątna'.}
+
+
+	\end{subfigure}%
+	~ 
+	\begin{subfigure}[b]{0.7\textwidth}
+	\includegraphics[width=0.9\textwidth]{identyfikacja/1_trans_skok07}
+\centering
+\caption{Skok jednostkowy.}
+
+	\end{subfigure}
+	\centering
+	\caption{Porównanie odpowiedzi obiektu oraz modelu}
+	\label{fig:1_trans}
+\end{figure}
+Na rysunku \ref{fig:1_trans} można zauważyć, że model został lepiej dopasowany do dodatnich napięć, a gorzej do ujemnych dlatego postanowiono skonstruować model uwzględniejący pokazaną wczesniej na rysunku \ref{fig:martwa_sterfa} asymterię układu. W związku z tym skonstruowano model skłądjący się z dwóch transmitancji. Jendej odpowiadającej napięciom wejściowym dodtanim oraz drugiej odpowiadającej napięciom ujemnym.  Wartości paramterów każdej z nich zostały obliczone poprzez podanie skoków o odpowienich znakach na wejsice. Stosując taką metodologię otrzymano rezultaty przedstawione na rysunku \ref{2_trans}
+
+
+% TODO Czy nie dać tutaj odpowiedzi modelu dla położenia trzeba to rozważyć zdjęcia są zrobione
+\begin{figure}[h]
+	\captionsetup[figure]{justification=centering}
+	\centering
+	\begin{subfigure}[b]{0.7\textwidth}
+		\includegraphics[width=0.9\textwidth]{identyfikacja/2_trans_fala_prost}
+		\centering
+		\caption{'Fala prostokątna'.}
+		
+	\end{subfigure}%
+	~ 
+	\begin{subfigure}[b]{0.7\textwidth}
+		\includegraphics[width=0.9\textwidth]{identyfikacja/2_trans_skok07}
+		\centering
+		\caption{Skok jednostkowy.}
+		
+	\end{subfigure}
+	\centering
+	\caption{Porównanie odpowiedzi obiektu oraz modelu}
+	\label{2_trans}
+\end{figure}
+
